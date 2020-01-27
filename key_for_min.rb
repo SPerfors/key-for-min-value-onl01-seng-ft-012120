@@ -8,7 +8,8 @@ def key_for_min_value(name_hash)
     if small_value == 0 || value < tiny_key
       small_value = value 
       tiny_key = key 
-    
+    end
+  tiny_key
 end
 
 key_for_min_value(ikea)

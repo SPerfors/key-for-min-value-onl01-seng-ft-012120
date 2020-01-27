@@ -12,4 +12,3 @@ def key_for_min_value(name_hash)
   tiny_key
 end
 
-key_for_min_value(ikea)
